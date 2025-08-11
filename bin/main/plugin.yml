@@ -1,0 +1,17 @@
+name: nakedandafraid
+version: '1.0'
+main: me.andrew.nakedandafraid.Nakedandafraid
+api-version: '1.21'
+authors: [ andrew ]
+website: https://andrewcod3s.github.io/andrewcod3s/
+description: A survival plugin where wearing armor poisons you and death puts you in spectator mode
+commands:
+  revive:
+    description: Revive a player from spectator mode (OP only)
+    usage: /revive <player>
+    permission: nakedandafraid.revive
+    permission-message: You don't have permission to use this command!
+permissions:
+  nakedandafraid.revive:
+    description: Allows reviving players
+    default: op
